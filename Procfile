@@ -1,0 +1,1 @@
+web gunicorn FWD.wsgi:application --log-file -

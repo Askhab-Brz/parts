@@ -1,0 +1,124 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4WD-PARTS</title>
+    <link class="tab" rel="icon" href="{% static 'landing/tab.jpg' %}">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="{% static 'landing/styles.css'%}">
+</head>
+<body >
+    
+  
+  
+        <nav class="navbar sticky-top navbar-expand-lg  navbar-light bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"> <img class="logo" src="{% static  'landing/log.png' %}"> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="#showcase">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link"  href="#showcase2">Merchendise</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#" tabindex="-1" aria-disabled="true"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    
+
+    
+            <section class="showcase" id="showcase" class="scrollsnap-section">
+              <div class="info">
+                <br>
+                <br>
+                <h1> Find the best car parts possible!</h1>
+                <p id="p1">Are you looking for spare parts? We are at your service! Our company provides high-quality parts for your vehicle from top manufacturares. We are supplied directly from the factories of offical manufacturares, which grants the best brice. 
+                  Take a look below to see.</p>
+              </div>  
+            </section>
+        
+            
+          <section class="showcase2" id="showcase2" class="scrollsnap-section">  
+           
+            <div id="h2"><h2>In stock</h2></div> 
+                <div class="container">
+                  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="{% static 'landing/head.jpg' %}" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-md-block">
+                          <h5><span>Engines</span></h5>
+                          <b span class="b">Fully aseembled swap modifications and parts.</b>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="{% static 'landing/silv.jpg' %}" class="d-block w-100" alt="...">
+                        <div class="carousel-caption  d-md-block">
+                          <h5><span >Suspensions</span></h5>
+                          <b span class="b">From MacPherson to electronic, hydropneumatic and air suspensions.</b>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="{% static 'landing/sus2.jpg' %}" class="d-block w-100" alt="...">
+                        <div class="carousel-caption  d-md-block">
+                          <h5><span>Rally and buggy</span></h5>
+                          <b span class="b">Swap kits by professionals to professionals.</span></b>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                    </div>
+                  
+                
+          </section>
+
+          <section class="contact" id="contact" class="scrollsnap-section">
+            <h1>How to find us?</h1>
+            <p id="how">
+              You can find us in QAMQOR CITY shopping center to come and see all the variety and quality of our merchendise.
+              <br>  Click on the coordinates below: <a href="https://goo.gl/maps/PYGK5GhTGuE8gkHU8"  target="_blank">59JP+GH6, Астана 020000</a>
+            </p>
+            <h3> Or </h3>  <p id="wp">contact our manager to order delivery</p>
+            <a class="wa" href=" https://wa.me/+77719119231?" target="_blank"> <img class="wp" src="{% static 'landing/WA.png' %}" alt=""></a>  
+          <div class="pic">
+            <img src="{% static 'landing/loc.jpg' %}" alt="Location">
+           
+          
+          </div>
+          
+          
+         
+          </section>
+
+  
+
+</body>    
