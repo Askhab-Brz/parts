@@ -43,7 +43,7 @@
     
 
     
-            <section class="showcase" id="showcase" class="scrollsnap-section">
+            <section class="showcase" id="showcase" >
               <div class="info">
                 <br>
                 <br>
@@ -54,54 +54,43 @@
             </section>
         
             
-          <section class="showcase2" id="showcase2" class="scrollsnap-section">  
+          <section class="showcase2"  >  
            
-            <div id="h2"><h2>In stock</h2></div> 
-                <div class="container">
-                  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="{% static 'landing/head.jpg' %}" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-md-block">
-                          <h5><span>Engines</span></h5>
-                          <b span class="b">Fully aseembled swap modifications and parts.</b>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="{% static 'landing/silv.jpg' %}" class="d-block w-100" alt="...">
-                        <div class="carousel-caption  d-md-block">
-                          <h5><span >Suspensions</span></h5>
-                          <b span class="b">From MacPherson to electronic, hydropneumatic and air suspensions.</b>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="{% static 'landing/sus2.jpg' %}" class="d-block w-100" alt="...">
-                        <div class="carousel-caption  d-md-block">
-                          <h5><span>Rally and buggy</span></h5>
-                          <b span class="b">Swap kits by professionals to professionals.</span></b>
-                        </div>
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
+            
+            
+            <div class="fwrap">
+                 
+              <div class="wrap">
+                  <div class="mc">
+                    <img src="{% static 'landing/head.jpg' %}" alt="">
                   </div>
+                    <div class="msg">
+                      <h2>Engines</h2>
+                      <p style="color: rgb(0, 0, 0) ;"> Fully aseembled swap modifications and parts</p>
                     </div>
-                  
-                
-          </section>
+              </div>
+                  <div class="wrap">
+                    <div class="mc">
+                      <img src="{% static 'landing/silv.jpg' %}" alt="">
+                    </div>
+                      <div class="msg">
+                        <h2>Suspensions</h2>
+                        <p style="color: rgb(0, 0, 0) ;"> From MacPherson to electronic, hydropneumatic and air suspensions.</p>
+                    </div>
+                  </div>    
 
-          <section class="contact" id="contact" class="scrollsnap-section">
+            <div class="wrap">
+                <div class="mc">
+                  <img src="{% static 'landing/sus2.jpg' %}" alt="">
+                </div>
+                    <div class="msg">
+                      <h2>Rally and buggy</h2>
+                      <p style="color: rgb(0, 0, 0) ;"> Swap kits by professionals to professionals.</p>
+                  </div>
+            </div>  
+          </div>
+        </section>
+          <section class="contact" id="contact" >
             <h1>How to find us?</h1>
             <p id="how">
               You can find us in QAMQOR CITY shopping center to come and see all the variety and quality of our merchendise.
@@ -109,14 +98,11 @@
             </p>
             <h3> Or </h3>  <p id="wp">contact our manager to order delivery</p>
             <a class="wa" href=" https://wa.me/+77719119231?" target="_blank"> <img class="wp" src="{% static 'landing/WA.png' %}" alt=""></a>  
-          <div class="pic">
-            <img src="{% static 'landing/loc.jpg' %}" alt="Location">
-           
-          
-          </div>
+          <div>
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A84b8572fb3683c09a2b149b03ff4fc6b3aacb6a7d6153de18819f26d61e47f44&amp;source=constructor" width="80%" height="50%" frameborder="0"></iframe>
+          </div>  
           
           
-         
           </section>
 
   

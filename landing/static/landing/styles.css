@@ -105,15 +105,15 @@ a {
 
 h1{
     padding-top: 2%;
-    color: beige;
+    color: rgb(255, 255, 254);
     font-size: 2em;
+    text-align: center;
 }
 #p1{
-    
+    text-align: center;
     font-family: Arial;
     font-size: 1em;
-    margin-right: 20%;
-    margin-left: 5%;
+    
     color:rgb(253, 251, 251);
 }
 
@@ -173,70 +173,67 @@ h1{
 
 .showcase2{
   
-  
+  width: 100%;
   background-color: rgb(43,47,51);
-  scroll-snap-align:center;
-  height: 100vh;
+  height: 100%;
+  display: flex;
+  
   
 }
 
 .contact{
   padding: 1%;
   scroll-snap-align:start;
-  height: 150%;
+  height: 100%;
   text-align: center;
   background-color:  rgb(53,57,61);
 }
-.container{
-  height: 75%;
-  border: 10px solid rgb(53,57,61);
-  padding: 0;
-}
-
-.carousel-inner{
-  max-width: 100%;
-  max-height: 100%;
-}
-img{
-  height: 100%;
-  object-fit: cover;
-}
 
 
-.pic{
-  padding-top:2% ;
-  height: 50%;
-  width:83%;
-  margin-top: 0%;
-  margin-left: auto;
-  margin-right: auto;
-  overflow: visible;
-} 
+.fwrap{
+  border: 10px solid red;
+  height: 70%;
+  width: 90%;
+  display: flex;
+  gap: 5em;
+  align-items: center;
+  margin: auto;
+
+
+}
+.wrap{
+  background-color: white;
+  text-align: center;
+  border: 0px;
+  border-radius: 6px;
+  width: 27%;
+  height: 70%;
+  flex: 1;
   
-.pic img{
+}
+.mc{
+  
+  width: 100%;
+  height: 80%;
+  
+}
+ .mc img{
   width: 100%;
   height: 100%;
-  transition: .5s ease;
+  object-fit:cover;
 }
-
-.pic img:hover  {
-  transform: scale(1.2) translateY(+20%) ;
+.msg{
   
 }
-
 #wp{
   color: beige;
 }
-
-
-
 
 
 .wa{
   width: 10%;
   margin: auto;
 }
-
 
  
 h3{
@@ -274,16 +271,3 @@ overflow: visible;
   background-color: rgba(0, 0, 0, 0.582);
 }
 
-
-
-@media only screen and (max-width: 768px) {
-  
-  .pic{
-    width: 100%;
-    height: 100%;
-  }
-  .pic img{
-    width: 80%;
-    height: 20%;
-  }
-}
