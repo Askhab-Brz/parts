@@ -186,6 +186,7 @@ a {
   
 }
 .wrap{
+  border-radius: 5px;
   word-wrap: normal;
   font-size: 1em;
   height: 35vh;
