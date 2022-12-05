@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    
 }
 p{
   margin: 0;
@@ -154,14 +155,7 @@ a {
 }
 
 
-#how{
-  color:beige;
-}
-#h2{
-  padding-top: 5%;
-  color: beige;
-  
-}
+
 
 
 .showcase2{
@@ -173,7 +167,7 @@ a {
 }
 
 .contact{
- 
+ color: white;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -184,7 +178,7 @@ a {
 .fwrap{
   font-size: 1em;
   flex-wrap: wrap;
-  height: 90vh;
+  height: 100vh;
   display:flex;
   align-items: center;
   justify-content: center;
@@ -192,20 +186,24 @@ a {
   
 }
 .wrap{
+  word-wrap: normal;
   font-size: 1em;
-  height: 25vh;
+  height: 35vh;
   width: 25vw;
-  transition:  200ms ease-in-out
-  
+  transition:  200ms ease-in-out;
+  background-color: rgb(92, 90, 93);
+  overflow: hidden;
 }
 .wrap h2{
   margin: 0px ;
+  font-size: 1.2rem;
 }
 .wrap img{
   width: 100%;
-  height: 100%;
+  height: 70%;
   object-fit: cover;
 }
+
 
 
 
@@ -217,9 +215,7 @@ a {
 
 
 
-#wp{
-  color: beige;
-}
+
 
 
 .wa{
@@ -228,10 +224,7 @@ a {
 }
 
 
-h3{
-  
-  color: beige;
-}
+
 
 .pic> a .wa{
 object-fit:contain;
@@ -253,18 +246,29 @@ overflow: visible;
   
 }
 
- @media only screen and (max-width: 725px){
+ @media only screen and (max-width: 783px){
   .fwrap{
-    
-   flex-direction: column;
-   justify-content: space-evenly;
-   
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 3%;
+    margin-bottom: 2%;
   }
   .wrap{
-    height: 20%;
-    width: 40%;
+    word-wrap: break-word;
+    line-height: 1em;
+    height: 26%;
+    width: 75%;
+    background-color: gray;
   }
-  
+  .wrap img{
+    height: 75%;
+  }
+  .wrap:hover{
+    transform: scale(1.1);
+  }
+  .wrap h2{
+    font-size: medium;
+  }
 }
 
 
@@ -292,4 +296,7 @@ overflow: visible;
     font-size: medium;
   }
   
+}
+#hw{
+  padding-top: 10%; 
 }
