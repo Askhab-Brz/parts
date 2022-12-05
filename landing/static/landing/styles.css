@@ -278,7 +278,7 @@ overflow: visible;
   .wrap{
     word-wrap: break-word;
     line-height: 1em;
-    height: 28%;
+    height: 26%;
     width: 90%;
     background-color: gray;
   }
