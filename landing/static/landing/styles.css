@@ -182,6 +182,7 @@ a {
 
 
 .fwrap{
+  font-size: 1em;
   flex-wrap: wrap;
   height: 90vh;
   display:flex;
@@ -191,28 +192,16 @@ a {
   
 }
 .wrap{
+  font-size: 1em;
   height: 25vh;
   width: 25vw;
-  border-radius: 6px;
-  border-top: 0px;  
+ 
   transition:  200ms ease-in-out
 }
 .wrap img{
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-.cap{
-  text-align: center;
-  line-height: 1em;
-  background-color: gray;
-  font-weight: 100;
-  height: 10vh;
-  word-wrap: break-word;
-  
-}
-.cap h2{
-  font-size: medium;
 }
 
 
@@ -272,9 +261,7 @@ overflow: visible;
     height: 20%;
     width: 40%;
   }
-  .cap{
-    height: 7vh;
-  }
+  
 }
 
 @media only screen and (max-width: 621px){
@@ -285,11 +272,13 @@ overflow: visible;
    margin-bottom: 2%;
   }
   .wrap{
-    height: 20%;
-    width: 82%;
-  }
-  .cap{
-    height: 8vh;
+    word-wrap: break-word;
     line-height: 1em;
+    height: 30%;
+    width: 80%;
+    background-color: gray;
+  }
+  .wrap img{
+    height: 65%;
   }
 }
