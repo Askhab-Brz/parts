@@ -281,8 +281,8 @@ overflow: visible;
   .fwrap{
     
    flex-direction: column;
-   gap: 7%;
-   padding-bottom: 2%;
+   gap: 3%;
+   margin-bottom: 2%;
   }
   .wrap{
     height: 20%;
