@@ -278,7 +278,7 @@ overflow: visible;
   .wrap{
     word-wrap: break-word;
     line-height: 1em;
-    height: 29%;
+    height: 28%;
     width: 90%;
     background-color: gray;
   }
@@ -288,4 +288,8 @@ overflow: visible;
   .wrap:hover{
     transform: scale(1.1);
   }
+  .wrap h2{
+    font-size: medium;
+  }
+  
 }
