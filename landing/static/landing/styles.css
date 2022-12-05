@@ -195,8 +195,11 @@ a {
   font-size: 1em;
   height: 25vh;
   width: 25vw;
- 
   transition:  200ms ease-in-out
+  
+}
+.wrap h2{
+  margin: 0px ;
 }
 .wrap img{
   width: 100%;
@@ -264,21 +267,25 @@ overflow: visible;
   
 }
 
+
 @media only screen and (max-width: 621px){
   .fwrap{
-    
-   flex-direction: column;
-   gap: 3%;
-   margin-bottom: 2%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 3%;
+    margin-bottom: 2%;
   }
   .wrap{
     word-wrap: break-word;
     line-height: 1em;
-    height: 30%;
-    width: 80%;
+    height: 29%;
+    width: 90%;
     background-color: gray;
   }
   .wrap img{
     height: 65%;
+  }
+  .wrap:hover{
+    transform: scale(1.1);
   }
 }
