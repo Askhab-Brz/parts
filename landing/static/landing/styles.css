@@ -219,33 +219,13 @@ a {
 
 
 
-.wa{
-  width: 10%;
-  margin: auto;
-}
 
 
 
 
-.pic> a .wa{
-object-fit:contain;
-overflow: visible;
-}
 
-.wp{
-  filter: invert(1);
-  margin: auto;
-  width: 7vw;
-  height: 7vh;
-  object-fit: contain;
-  overflow: visible;
-}
 
-.wa>.wp:hover{
-  
-  filter: invert(0);
-  
-}
+
 
  @media only screen and (max-width: 783px){
   .fwrap{
@@ -298,6 +278,17 @@ overflow: visible;
   }
   
 }
-#hw{
-  padding-top: 10%; 
+.map{
+  justify-content: center;
 }
+#con{
+  padding-top: 4%;
+}
+.info{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+  }
+
