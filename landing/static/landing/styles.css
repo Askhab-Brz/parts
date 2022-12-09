@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    
+    color: white;
 }
 p{
   margin: 0;
@@ -194,8 +194,10 @@ a {
   transition:  200ms ease-in-out;
   background-color:rgb(47,53,57);
   overflow: hidden;
+  color: white;
 }
 .wrap h2{
+  
   margin: 0px ;
   font-size: 1.2rem;
 }
